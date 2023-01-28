@@ -93,3 +93,18 @@ nav .logo img {
     font-weight: 400;
     line-height: 48px;
 }
+
+/* "OUR CLIENTS" */
+.our-clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+    border-bottom: 1px solid #000;
+}
+
+.our-clients-text {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 15px
+}
