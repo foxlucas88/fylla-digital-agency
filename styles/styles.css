@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Syne:wght@400;500&display=swap');
 
 * {
     padding: 0;
@@ -20,8 +20,8 @@ a {
     margin: 15px auto;
     border: 1px solid #000;
     border-radius: 3px ;
-    height: 100vh;
     max-width: 2560px;
+    padding: 2rem;
 }
 
 .blk-btn {
@@ -40,7 +40,6 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 2em;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid #000;
 }
@@ -63,7 +62,34 @@ nav .logo img {
 }
 
 .nav_links a.soc-med {
-    border: 1px solid #000;
+    border: 0.5px solid #000;
     border-radius: 50%;
     padding: 10px;
+}
+
+/* LANDING */
+.landing {
+    font-family: 'Syne', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+    border-bottom: 1px solid #000;
+}
+
+.landing .landing-left {
+    width: 50%;
+}
+
+
+.landing .landing-head {
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 105px;
+    padding-bottom: 1rem;
+}
+
+.landing .landing-subhead {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
 }
